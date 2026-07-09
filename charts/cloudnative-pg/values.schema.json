@@ -207,6 +207,11 @@
           "required": [],
           "type": "object"
         },
+        "metricsPort": {
+          "default": 8080,
+          "description": "The port the operator exposes metrics on.",
+          "type": "integer"
+        },
         "podMonitorAdditionalLabels": {
           "description": "Additional labels for the podMonitor",
           "required": [],

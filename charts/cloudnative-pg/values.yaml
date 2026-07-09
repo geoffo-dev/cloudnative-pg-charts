@@ -181,6 +181,8 @@ affinity: {}
 
 monitoring:
 
+  # -- The port the operator exposes metrics on.
+  metricsPort: 8080
   # -- Specifies whether the monitoring should be enabled. Requires Prometheus Operator CRDs.
   podMonitorEnabled: false
   # -- Metrics relabel configurations to apply to samples before ingestion.
